@@ -1,0 +1,36 @@
+{
+	"sites": [
+		{
+			"title": "YourSound",
+			"id": "yoursound",
+			"components": [
+				{
+					"title": "Frontend, Authentication & Purchase Service",
+					"fetchURI": "https://sound.yoursoftware.org"
+				}
+			]
+		}, {
+			"title": "ShapeSquad GNet",
+			"id": "gnet",
+			"components": [
+				{
+					"title": "Frontend",
+					"fetchURI": "https://gnet.shapesquad.dev"
+				}, {
+					"title": "Authentication Service",
+					"fetchURI": "https://gnet.shapesquad.dev/api/auth"
+				}, {
+					"title": "Leaderboard Service",
+					"fetchURI": "https://gnet.shapesquad.dev/api/leaderboards"
+				}, {
+					"title": "Room Service",
+					"fetchURI": "https://gnet.shapesquad.dev/api/rooms"
+				}, {
+					"title": "NAT Transversal Service",
+					"fetchURI": "!STUN",
+					"stunURI": "stun:nat.gnet.shapesquad.dev"
+				}
+			]
+		}
+	], "maintenanceAPI": "https://yoursoftware.org/api/maintenance-events"
+}

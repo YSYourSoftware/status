@@ -1,0 +1,23 @@
+.percentage-display {
+    margin-left: 0;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.cl-accent {
+    color: oklch(var(--accent-base-lightness) var(--accent-okch));
+}
+
+.cl-darker-accent {
+    color: oklch(calc(var(--accent-base-lightness) * 0.75) var(--accent-okch));
+}
+
+body {
+    padding-bottom: 5px;
+}
+
+.outage-update {
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}

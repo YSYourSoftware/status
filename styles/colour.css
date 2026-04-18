@@ -1,0 +1,18 @@
+:root {
+    --background-rgb: 30, 30, 30;
+    --background-rgb-l1: 35, 35, 35;
+    --background-rgb-d1: 25, 25, 25;
+
+    --accent-okch: 0.1622 239.79;
+    --accent-base-lightness: 0.7125;
+    --accent-button-lightness: 0.6306;
+
+    --error-okch: 0.237 26.97;
+    --error-base-lightness: 0.6489;
+
+    --success-okch: 0.2405 151.41;
+    --success-base-lightness: 0.65;
+
+    --warning-okch: 0.1672 56.08;
+    --warning-base-lightness: 0.6853;
+}

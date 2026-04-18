@@ -1,0 +1,16 @@
+{
+	"inOutage": false,
+	"title": "Full Outage",
+	"affects": "All Services",
+	"events": [
+		{
+			"title": "Outage Reported",
+			"description": "Multiple users and systems reported an outage.",
+			"timestamp": "2026-04-18T08:08:43+00:00"
+		}, {
+			"title": "Cause Identified",
+			"description": "We've identified the cause and are working on a fix.",
+			"timestamp": "2026-04-18T08:36:16+00:00"
+		}
+	]
+}
