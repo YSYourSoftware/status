@@ -7,6 +7,9 @@
 				{
 					"title": "Frontend, Authentication & Purchase Service",
 					"fetchURI": "https://sound.yoursoftware.org"
+				}, {
+					"title": "Email server",
+					"fetchURI": "https://mail.yoursoftware.org"
 				}
 			]
 		}, {
